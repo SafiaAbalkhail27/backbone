@@ -1,0 +1,34 @@
+5 Reasons Some VR Training Programs Fail
+
+Not every virtual reality training program succeeds. With more companies implementing this training modality, some organizations jump in too quickly without a proper plan in place. This can create large risks in terms of money and time, as well as creating a negative sentiment towards reintroducing VR as a training modality in the future. With this in mind, it’s important to know why other companies fail and what you should do to ensure success.
+
+VR training programs fail when they don’t set the right goals
+Goal setting is essential when starting any project. Think about the why behind implementing virtual reality into your training program. Do you have goals such as improving training ROI, enhancing information retention amongst employees, and allowing employees the opportunity to fail safely? Or is it simply because you want to be seen as an industry leader in training innovation? Don’t use virtual reality training as a vanity project, rather think about how it will fit into your overall training program and the long term benefits that come with it.
+
+VR training programs fail when they don’t think about the future
+Scaling is something that needs to be considered early on. Many organizations think about how the program will benefit them in the short run, but may not create a detailed enough plan in terms of budgeting and stakeholder input as time goes on. Ensure you are on track for success by thinking about how the cost of scaling your program and the stakeholders that will help you get there.
+
+As an organization grows and procedures and policies change, your VR training program also needs to be malleable for future updates. Some VR vendors make this difficult through the long process of making edits. Keep this in mind when looking for a vendor, as certain tools such as the Motive VR Training Platform will make it easier to make these changes and scale your program.
+
+VR training programs fail when they don’t select the right use case
+Reduce the risk of VR training programs fails by using the correct use case, such as using a utility locate tool.
+Use the correct use case when planning your VR training program.
+Not every training scenario is better learned in a virtual world. For your employees to benefit from VR training, the use case needs to be suited for virtual reality. Use cases that require a lot of reading, teach skills that involve fine motor manipulation or software, or train knowledge based information (such as company policy) are better taught in different modalities.
+
+If the skills you want to train are interactive, influenced by the physical environment, and involve physical movement, they could be a good fit for VR training. VR training is also beneficial for situations relating to soft skills, such as practicing difficult conversations. Consider the following questions when thinking about what to train in VR:
+
+Does the physical environment and equipment factor into the training? Does the learner need to navigate physical space and manipulate objects or machinery to learn the skill?
+Is the subject matter procedural? Do you need to memorize or learn a set of steps to complete a task?
+Is the subject matter conversational? Do you need to practice ways to say things to respond in difficult conversations?
+Can the training be represented by a scenario with decision points and visual and auditory clues that will compel the trainee to make a choice? 
+VR training programs fail when they don’t utilize the right tools
+You need tools that will make the implementation and maintenance of your VR training program easy. Each VR vendor differs in the toolset they can bring to your program, with unique ways of adding scenarios, updating existing ones, and distributing changes. For example, some vendors still work in VR training 1.0, an outdated way of doing VR training consisting of training that requires lots of time with a lower reward. You need a toolset that allows you to make, edit, and distribute your training with ease.
+
+Look for tools that will fit well with the skills and needs of your team and program. For example, do you need an authoring tool with little to no code? It’s also important to know the limitations of the tools you choose. Some tools will allow you to scale easily in the future, while others will require long back and forth conversations with developers. Check out this list of questions you should ask your VR vendor to ensure you are on the same page.
+
+VR training programs fail when they don’t have the right stakeholder input
+Bringing virtual reality into your training program has impacts beyond the learning and development team. It’s crucial to have the correct stakeholder input to ensure your program succeeds. Depending on your organization’s structure, you need to plan which business units will need to be involved in the present and future of your program. Think about everyone who will be impacted by the implementation.
+
+Ensure each stakeholder group sees value in your VR training project. For success, the program needs more advocates than distractors. Having each individual in line with a common goal and realizing the benefit of the implementation will assist when you want to scale the program in the future.
+
+It’s important to take the right steps prior to onboarding VR into your training program to minimize the risk of a VR training program fail. Proper planning including scaling, tools, and stakeholders will help in ensuring program success.

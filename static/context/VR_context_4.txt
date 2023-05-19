@@ -1,0 +1,51 @@
+Why using virtual reality in eLearning can be beneficial?
+Immersion into the learning.
+VR set blocks distractions like social networks, phones, TV ads and other informational noise, allowing the learners to concentrate on the learning. Submersion into an interesting 3D simulation with lots of potent stimuli leads to naturally improving the brain’s ability to process new information, granting an unprecedented level of knowledge comprehension.
+Personalized learning environments.
+Designers can create any environment to provide comfort for the learners. Every learner can choose the surrounding that fits them best — a forest, a seashore, a sunny lawn, and starry skies at night. This will help the learners forget they sit in a classroom and relax to comprehend new knowledge better.
+Training both knowledge and physical skills.
+Serious gaming and simulations can reach quite another level, where a worker must execute the correct sequence of movements (open the toolbox, take the right tool, shut down the valve, cut the needed wire, pull the correct switch, etc.) Such exercises will create muscle memory, helping the employees be prepared to dangerous situations without incurring great expenses on the company and cutting down the risk in a dangerous simulation.
+Even though virtual reality is in its infancy nowadays, it already has much to offer in terms of eLearning. As time will pass, more and more applications will reveal themselves.
+
+Factors slowing down VR implementation in eLearning
+Financial restraints. VR set nowadays is a sizeable investment, limiting its usage to a narrow circle of tech geeks and early adopters, treating it more as a toy than a tool for education. Smartphones were also not too widespread 10 years ago and now almost 80% of the US or EU population have them. We are sure that with time VR sets will also become more affordable and turn into ubiquitous parts of our lives.
+Hardware requirements. As of now, VR set requires quite an expensive computer to process the immersive simulations. Add the high-speed unlimited Internet connection (for delivering eLearning) into the equation and you end up with significant hardware requirements. As hardware development will progress, computing power level needed for delivering immersive educational simulations will become lower, leading to wider adoption of VR in eLearning.
+Physical limitations. When people see VR goggles, they rarely think of all the accessories like manipulators that actually form the VR set needed to provide full immersion into virtual reality. This system limits the freedom to move as it needs to be stationary. mLearning is on the rise because people want to learn whenever and wherever they want, a feature VR cannot yet provide. Once VR sets become more compact and ergonomic, their adoption potential should grow exponentially.
+Physiological issues.  Unfortunately, nausea is quite probable when using a VR set due to the issues with screen latency. The manufacturers are doing their best to overcome the challenge, and it is only a question of time. However, the issue still persists and limits the use of virtual reality in eLearning greatly. Such distractions are not helping in learning.
+Virtual Reality Use Cases
+Virtual reality (VR) technology has been rapidly advancing in recent years and has found a wide range of applications across various industries. In this article, we will discuss some of the most notable uses of VR by several companies and organizations, including Google, Microsoft, Conquer Mobile, the largest bank of Australia, CITEC, NASA, Toyota, the US Military, and Siemens.
+
+Google
+Google is one of the biggest tech companies in the world, and it has been actively researching and developing VR technology for several years. Google’s VR platform, Daydream, allows users to experience virtual worlds and interact with them using a VR headset and controller. Google also uses VR for training and education purposes, such as Google Expeditions, which allows teachers and students to take virtual field trips to different parts of the world.
+
+Microsoft
+Microsoft has also been heavily involved in VR technology, with its Windows Mixed Reality platform allows users to experience VR and augmented reality (AR) on their PC or console. The platform includes a range of VR headsets, controllers, and software, such as the HoloLens 2, which is a mixed reality headset that can be used for industrial, medical, and military applications.
+
+Conquer Mobile
+Conquer Mobile, is a mobile app development company, has been using VR technology to create immersive and interactive mobile experiences. The company has developed a range of VR apps for different industries, such as real estate, tourism, and education, which allow users to explore virtual environments and interact with them using their mobile devices.
+
+The Largest Bank of Australia
+The largest bank of Australia has been using VR technology to improve its customer service and training. The bank has developed VR simulations that allow customers to experience different banking scenarios and learn about different products and services. Additionally, the bank has used VR for employee training, allowing them to practice different customer interactions in a safe and controlled environment.
+
+CITEC
+CITEC is a research centre focusing on developing new technologies, including VR. The center has been working on a variety of VR projects, such as virtual training simulations for emergency services and virtual reality-based rehabilitation programs for patients recovering from strokes.
+
+NASA
+NASA has been using VR technology for several years to simulate space missions and prepare astronauts for space travel. The space agency has developed a range of VR simulations, such as the Virtual Reality Laboratory, which allows scientists and engineers to experience and test different scenarios in a virtual environment.
+
+Toyota
+Toyota is an automotive company, which has been using VR technology to improve the design and development of its vehicles. The company has developed a VR simulation system that allows engineers to test different vehicle designs and configurations in a virtual environment, without the need for physical prototypes.
+
+The US Military
+The US Military has been using VR technology for training and simulation purposes. The military has developed a range of VR simulations, such as the Virtual Battlespace, which allows soldiers to practice different combat scenarios in a virtual environment. Additionally, the military has been using VR for medical purposes, such as virtual reality-assisted therapy for soldiers with post-traumatic stress disorder (PTSD).
+
+Siemens
+Siemens is an engineering and technology company, which has been using VR technology to improve its product design and development. The company has developed a VR simulation system that allows engineers to test and optimize different product designs in a virtual environment. Additionally, Siemens has been using VR for training and education purposes, such as virtual reality-based training programs for employees and virtual reality-assisted education programs for students. This allows for hands-on, immersive learning experiences that can be tailored to the specific needs of the trainee or student.
+
+Siemens has also applied VR in manufacturing and construction sectors. By using VR, they can visualize and optimize the layout and design of factories, power plants, and other industrial facilities. It also allows for virtual walkthroughs of construction sites, enabling teams to identify and address potential issues before they occur in real life.
+
+Overall, the use of VR technology by Siemens has greatly improved the efficiency and effectiveness of product design and development, training, and education. It has also opened new opportunities for innovation and collaboration in various industries.
+
+As you can see, the use of virtual reality in eLearning promises some great results and faces some dire challenges. However, the most important question is this: will you be ready to implement VR into your eLearning practices once its issues are dealt with? Sharp-minded entrepreneurs should have ready methodologies in place to reap the benefits once the technology is ready for mass adoption.
+
+What is your opinion on the use of virtual reality in online learning? Did you experience VR firsthand? Can you think of some new VR applications for online education? Share your thoughts, we are always glad to hear from you!

@@ -1,0 +1,99 @@
+Virtual Reality (VR) has the potential to transform the way we learn and teach, from providing in-depth knowledge and helping us understand complex subjects to facilitating language immersion and virtual trips.
+
+It's already widely used in schools for younger children, but we're seeing its use more and more in higher education for a variety of reasons, including its ability to enhance learning and help students build their real-world skills and employability.
+
+In this article, we make the case for using VR in higher education, illustrating how and why it's being used, with real-life examples of universities, business schools, and colleges that are already taking full advantage of the technology.
+
+Enhancing learning and soft skills
+A key benefit of using VR in education is that you learn through experience. VR allows us to bring 2D objects to life and makes visualization a reality, enabling us to experience real scenarios or fabricated experiences over and over, and learn in an immersive way.
+
+The practical implications of this are huge, as VR opens up new ways to learn skills that were otherwise difficult to teach or appeal to a wider range of learning styles.
+
+One of the first uses of VR in higher education was to train students' soft skills. VirtualSpeech is being used by universities around the world to improve communication skills essential for employment after graduation.
+
+These skills require realistic practice, which is impossible to achieve on a consistent basis with traditional online learning methods.
+
+Within VR, students can practice soft skills whenever they want and receive feedback on their performance with features such as speech analysis. VR is a great tool for training these skills, providing tangible feedback and controlled, realistic environments where traditional theory or role-play exercises fall short.
+
+VR experiences are also helping the large percentage of people with speech anxiety to build their confidence - practicing in VR provides a safe environment that allows you to desensitize from a real-life audience.
+
+Lecturers in Europe, North America, and Australia are using VirtualSpeech to enhance their students' skill set. VirtualSpeech offer two courses that are particularly relevant in this space; the public speaking and job interview courses.
+
+For distance learning
+As college campuses become global, the location independence of VR becomes more prominent, and a big factor in helping to promote distance learning.
+
+Stanford School of Business has offered a certificate program delivered entirely through VR from as early as 2016, and earlier in 2022, medical students from Queen Mary University London received their first lectures in "the metaverse".
+
+Applications and virtual worlds, whether custom-made or through off the shelf platforms like AltSpace and VR Chat, provide virtual online chat spaces where students with a VR headset can project themselves and interact with lecturers and other students.
+
+The Immersive Learning Research Network (iLRN) went one step further by creating an entire Virtual Campus, open all year round for continued use in lectures, events, networking, and their annual conference.
+
+Social VR applications may also help reduce high dropout rates associated with online courses, by helping remote students feel more connected and less isolated, and give a more realistic channel to communicate with their lecturers and peers.
+
+Books will always be an integral part of university learning. But as the academic world raced to adapt to remote learning in the wake of the Coronavirus pandemic, and with options growing to study around the world in geographically different locations, the benefits of VR and the social connection it creates are huge.
+
+VirtualSpeech for Education
+Discover why universities and colleges are using the VirtualSpeech VR app to enhance the learning experience of their students.
+
+To bring learning to life
+One of the most obvious benefits of VR is transforming lectures into immersive learning experiences, enabling lecturers to truly bring their subject to life.
+
+Civil engineering students could use VR to design buildings, history students could explore Roman ruins, physics students could explore the universe. The possibilities for immersive education are near endless.
+
+Arizona State University recently worked with Dreamscape to launch their Learn Lab, helping their students to learn Biology through a variety of experiences utilizing Virtual Reality, Hand Tracking, and haptic feedback.
+
+ASU taking part in the Dreamscape Learning Lab Biology
+Students at ASU taking part in the Dreamscape Learning Lab Biology experience.
+
+Feedback and statistics showed that those who learned through VR had dramatically higher lab grades and better engagement than their peers who took the conventional lab course.
+
+Outside of STEM subjects, ESADE business school is rolling out Virtual Reality content for Students, Faculty and Staff to practice their skills and build employability through engaging, repeatable content.
+
+
+The Esade library is rolling out a new Virtual Reality content service for students, faculty, and staff with the VirtualSpeech platform.
+
+For improved collaboration and group learning
+VR has the potential to greatly enhance collaboration between teachers and students, both in distance learning and classroom-based teaching. It gives teachers the opportunity to make learning experiences social by allowing students to communicate verbally with each other and show body language through their avatar.
+
+The Giza Project, a non-profit international initiative based at Harvard University, assembles information about all the archaeological activity at the world's most famous site - the Giza Pyramids and surrounding settlements, using digital archaeology.
+
+Half of the students were studying at Harvard, half at Zhejiang University, and were working together as avatars in a VR-equipped classroom to study ancient Egyptian characters along a tomb. Both were using the standalone Oculus Go headset (now discontinued), and worked together to identify certain hieroglyphics.
+
+Using avatars and mapped facial expressions, the students on opposite sides of the world could come together to discuss, synthesize, and learn from one another.
+
+Prepare students for the workplace and jobs
+An increasing number of universities are offering VR courses and opening their own VR labs. This is a reflection of the confidence in the power of VR in years to come. Opening VR labs is one of the most practical uses of VR in higher education and is an important step in encouraging content development and setting a global standard for VR content.
+
+Application and distribution of VR First Labs and Hackathons
+Locations of VR First Labs and Hackathons
+
+Many of these labs have been facilitated by VR First, who have over 50 VR/AR labs worldwide, including over 5000 developers.
+
+The theory behind the initiative is that VR and AR will have a significant impact on the job market in the future and students should be equipped with skills around emerging technologies, as well as being familiar with their creation and implementation.
+
+The recruitment site Hired published a State of Software Engineers survey, showing that in 2019, the demand for VR/AR engineers grew by 1400%, demonstrating that the need is already here.
+
+
+For student recruitment
+Recruiting students is a competitive business and campus tours are an essential part of the process. Not only can it become expensive for the prospective student, it's also time-consuming for them and their families.
+
+Virtual tours allow students to explore campus from the comfort of their own home, thus reducing the number of universities they look around in real life. Some may even find a virtual tour sufficient to make their decision.
+
+EAB has already created virtual tours for some of the most prestigious universities in the world, including Harvard, Princeton, Yale, and Columbia. Their VR experience has on average 10.4 minutes of engagement, inquiries increase 18% and they have a 27% increase in physical visits to the universities after the VR experience.
+Inside YouVisit virtual tour of Harvard
+Inside YouVisit's virtual tour of Harvard
+
+To reduce the cost of training students
+Universities and colleges constantly have to invest in the most up-to-date equipment for their students, such as lab apparatus, medical appliances, chemistry sets etc.
+
+With small budgets this often means students are sharing equipment with several other students, limiting the time they get to learn on the equipment. VR training simulators allow educators to scale at a far lower cost, and provide greater learning opportunities.
+
+VirtualSpeech for Education
+Discover why universities and colleges are using the VirtualSpeech VR app to enhance the learning experience of their students.
+
+Oxford Medical Simulations has worked with leading Universities like the University of Oxford, UCLA, John Hopkins, and NYU, creating VR medical training experiences that help students practice nursing, diagnosis, and patient care.
+They practice medical procedures in virtual reality environments before conducting them for real. This works out to be far more cost and space effective than providing these facilities and scenarios for every student.
+
+The use of VR in education will dramatically increase over the next few years. While it is unlikely to replace traditional face-to-face teaching methods anytime soon, it will continue to be used to enhance learning and educational experiences.
+
+From choosing a university to landing your first job after graduation, to taking students located all over the world through the same lecture at the same time, the next generation of learners, and teachers, will be guided by VR.
