@@ -116,11 +116,34 @@ def add_linked_in(request):
 def get_results():
     query_str = "What did the author do growing up?"
     QA_PROMPT_TMPL = (
-        "We have provided context information below. \n"
-        "---------------------\n"
+        
+         ''' you are a consultant to an education institution who wants to do digital transformation using VR and your job is to analyse the institution data and the information given to help you provide a digital transformation strategy. this data consists of:
+        - data about the company's culture and situation and needs which was taken from a survey  
+        - a sample of the employees who works at the company and their skills  
+        - info and articles about digital transformation in VR in education which you can use as a source to help you with the analyzation 
+        - Facebook posts related to VR in education to gain more information
+        - possible vendors providing the VR technology
+
+         
+        
+        your strategy should follow these points:
+        - why do the company need digital transformation to be applied depending on data analysis and the given data from the survey
+        - what are the challenges, problems, and barriers that prevents you from using digital transformation on your case depending on the data analysis and the given data from the form
+        - you should explain how to work around these challenges and barriers
+        - you should provide similar cases that have the same purpose that the company want to achieve and it's the most similar to the company's goals and culture
+        - you should be able to estimate the needed budget by comparing the budgets used in similar cases and the prices vendors provide
+        - you should be able to give the company possible vendors suitable for their case and budget
+        - you should implement a road map of the strategy that shows step by step what to do
+        
+        
+
+        
+        
+
+        '''
         "{context_str}"
         "\n---------------------\n"
-        "Given this information, please answer the question: {query_str}\n"
+        "your answer should just be in json following this format: {query_str}\n"
     )
     QA_PROMPT = QuestionAnswerPrompt(QA_PROMPT_TMPL)
 
