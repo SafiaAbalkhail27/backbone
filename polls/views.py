@@ -3,7 +3,6 @@ import openai
 import pytrends
 from pytrends.request import TrendReq
 import pandas as pd
-import json
 from ast import literal_eval
 from plotly.offline import plot
 import plotly.graph_objs as go
@@ -13,6 +12,12 @@ import numpy as np
 from llama_index import SimpleDirectoryReader, GPTVectorStoreIndex, QuestionAnswerPrompt, BeautifulSoupWebReader, SimpleWebPageReader, GPTListIndex, LLMPredictor, PromptHelper
 from langchain import OpenAI
 import os
+from django.shortcuts import render
+from .forms import UploadFileForm
+import csv 
+import json 
+import codecs
+
 
 openai.api_key = "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"
 os.environ["OPENAI_API_KEY"] = "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"
@@ -130,3 +135,25 @@ def get_results():
     response = query_engine.query(query_str)
 
     return response
+
+def upload_file(request):
+    if request.method == 'POST':
+        form = UploadFileForm(request.POST, request.FILES)
+        
+        jsonArray = []
+        if form.is_valid():
+            # Process the uploaded file
+            uploaded_file = form.cleaned_data['file']
+            if(uploaded_file.content_type == 'text/csv'):
+                csvfile = csv.DictReader(codecs.iterdecode(uploaded_file, 'utf-8'))
+                #convert each csv row into python dict
+                for row in csvfile: 
+                #add this python dict to json array
+                    jsonArray.append(row)
+            
+
+        
+            return render(request, 'success.html', {'file': uploaded_file, 'type':uploaded_file.content_type, 'data': jsonArray})
+    else:
+        form = UploadFileForm()
+    return render(request, 'upload.html', {'form': form})
