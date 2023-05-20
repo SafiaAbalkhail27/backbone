@@ -1,0 +1,108 @@
+AI multiple framework for digital transform strategy
+
+Due to changing conditions of the business world, innovation and adoption are the key drivers to stay ahead of competitors. Digital transformation is an emerging trend as seen in the featured image but some companies may not manage to succeed in the transformation. To achieve success, leveraging a digital transformation framework that assists your organization as a roadmap can help.
+
+We’ll provide you with our digital transformation framework along with five different digital transformation frameworks from different consulting firms such as Mckinsey, Accenture, Cognizant, BCG, and Gartner to guide you to success.
+
+What is digital transformation?
+Digital transformation is the use of the latest technologies to enhance existing processes and offer new and improved services and products to customers. It aims to create value by changing how businesses operate and how they deliver value to customers.
+
+What is a digital transformation framework?
+Digital transformation framework is a roadmap of what digital strategies guide your business in a competitive evolving business landscape. It is a reference point and root of digital transformation projects. It aims to improve business’ digitization processes by identifying the goals of digitization.
+
+Why is the digital transformation framework important?
+According to McKinsey’s research, 70 percent of large-scale transformation programs fail. Common pitfalls are resistance to changing culture, lack of leadership, poor cross-functional collaboration. A framework can help organizations avoid these pitfalls by demonstrating a roadmap to success. It provides an agreed business-wide approach so that employees and executives don’t stray away from goals during agile evolving business conditions.
+
+Numerous consultancies have formulated digital transformation frameworks for their clients. We see these common patterns in most frameworks:
+
+Digitized business model
+Talent enhancement within the enterprise
+Customer-centric products and services
+Innovative culture
+Collaborative leadership
+What is AIMultiple digital transformation framework?
+AIMultiple Digital Transformation Framework
+Identify digital transformation objectives
+Let’s start with your organization’s digital transformation objectives. Digital transformation project objectives mostly focus on improving customer experience and profitability either via improved pricing or operational efficiency.  Different digital transformation objectives can be set or prioritized depending on your business’ industry, size, market share, etc. We will explain each possible objective based on company characteristics: 
+
+Digitizing products & services: According to studies, two-thirds of a company’s competitive edge comes from its customer experience. Therefore companies need to provide state-of-art products & services to customers to gain a competitive advantage. Especially in B2C businesses within  retail, insurance, banking industries need to focus on a customer-centric approach since end consumers value both the user experience and the pricing of the product.
+Optimizing processes: Every business contains a series of repeated processes, for example in manufacturing, insurance, marketing, HR or finance departments. Digital transformation helps enhance these processes with digital tools achieving internal collaboration and improved employee performance, increased automation rate in repetitive processes, improved production output etc. Some business targets as a result of these efforts can be:
+cost optimization
+improved compliance
+revenue improvement via higher quality products or more personalized pricing
+business agility
+Creating new business models: Advances in technology can enable your organization to monetize different products & services. Companies can create new revenue channels by entering adjacent markets such as Daimler’s new ride-sharing project Moovel or Apple’s Apple Card.
+Formulate a digital transformation strategy
+After deciding on your digital transformation objectives, it is time to plan your path to achieve those goals. 
+
+Digital transformation projects should aim end-to-end transformation that’s why the digital maturity of your business decides your next move in the digital transformation journey. 
+
+As seen below, there are three paths you can choose to achieve digital transformation and the best path for your company depends on digital maturity, objectives, industry, and the competitive pressure of the company.
+
+IBM's digital transformation strategy formulation
+Source: IBM
+Path 1: Create and integrate digital operations first. Then enhance the customer value proposition based on new processes
+For industries such as B2B manufacturing, mining, government, where customer expectations are more modest and the product is either a physical asset or well-established services, changing the way your organization operates is the most suitable strategy for digital transformation.
+
+Automating some operations and processes can help you reduce costs along with shifting your workforce’s focus on more value-added tasks.
+
+Path 2: Improve customer value proposition with digital content, insight and engagement. Then focus on integrating digital operations
+Industries such as financial services, insurance, and retail, where new revenue-based services can be offered via online and mobile devices, should focus on improving the value they propose to customers. Key questions should be:
+
+How can we make the life of customers easier?
+Digital platforms and omnichannel technology can help create a frictionless conversation between customers and the company.
+What can your company do to better serve customer needs?
+Capturing feedback from customers
+Emotionally engaging with customers
+Personalized products and services
+Service speed
+Path 3: Build a new set of capabilities around the transformed customer value proposition and operation model in lock-step
+If you have enough resources and both objectives are equivalently important, you can handle the transformation of operations and customer value proposition simultaneously.
+
+Decide on the necessary technologies
+Since you chose your digital transformation strategy, now you need to decide which technologies will enable you to achieve your objectives. Technology selection depends on your use case. We examined 15 trending technologies in digital transformation you can read the detail explanation of each technology. However, there are some specific technologies that you can use based on the strategic path you chose:
+
+Path 1 technologies:
+Automation testing,
+RPA,
+Digital twins,
+IoT,
+Smart contracts,
+Process mining,
+Task mining,
+Analytics,
+Predictive maintenance,
+Autonomous things.
+Path 2 technologies:
+Customer intelligence,
+Personalization engine,
+Recommendation engine,
+Omnichannel,
+Chatbots.
+Digital transformation technologies are not limited to this list. If you want to learn more about digital technologies and their vendors, feel free to check our vendor database where we have 8000+ companies in 100+ categories.
+
+And if you are unsure about which technologies and vendors you should choose, don’t hesitate to contact us:
+
+
+Find the Right Vendors
+
+
+Establish a competent technology leadership
+Though 87% of businesses believe that digital will disrupt their industry, 87% acknowledged that they don’t have the right leadership. Success in digital transformation depends on leadership as much as on technological capabilities. Transformational leadership eases the integration of digital culture which we will explain in the next step. Some tips for digital transformation leaders are:
+
+Agility & continuous improvement mindset: Your Minimum Viable Products (MVP) may succeed or fail. You should continue on change management and apply the lessons learned to your next MVP.
+Design thinking: You should re-frame problems in human-centric ways which includes five phases:
+Empathise with your users
+Define your users’ needs, their problem, and your insights
+Ideate by challenging assumptions and creating ideas for innovative solutions
+Prototype to start creating solutions
+Test solutions
+Action-oriented: The time for formulating long term plans in armchairs is over. Innovative organizations rely on fast decision making and bias for action to conduct fast, low cost tests and learn quickly.
+Amazon’s leadership principles are also a great example for tech leadership even though there is potential to shorten their list.
+
+Train the stuff and integrate a digital culture among the organization
+Digital culture is the work environment where every employee is able to communicate and discuss with leaders about innovation while leaders are encouraging employees to take risks, fail fast, and learn. Digital culture includes experimentation, collaboration, employee involvement, and training. While establishing a digital culture is hard and requires internal leadership, training is rather easy and companies have access to various partners and tools for that:
+
+Consulting companies: Digital transformation consulting companies formulate digital strategy, implement technologies, build digital products and help you with employee training. This should be complementary to internal efforts, relying purely on consulting for upskilling the workforce would be expensive.
+Technology vendors: Almost every vendor provides a training of their product so that you get the most of the product and keep purchasing it or renewing the subscription.
+Online courses: For specific technologies such as RPA and augmented analytics where learning programming is rather easy for business users, tech-specific online courses can be used to train the team. If your next digital transformation initiative is on RPA and seeking an RPA training course, feel free to read our related article.

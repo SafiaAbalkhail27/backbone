@@ -69,3 +69,60 @@ The recent on-campus gathering may be seen by some as an indication that a progr
 
 ************************************************
 
+The lecture is thought to be the first in the metaverse in the UK and can be a vital tool in training future doctors, nurses, and surgeons.
+
+The metaverse has several significant benefits compared to traditional online learning, according to Professor Ahmed. Students can replicate activities previously only possible in-person – signalling a potentially game-changing moment for education.
+
+The metaverse is a 3D virtual world where users create avatars of themselves to share spaces, collaborate, and do real activities together. It is a digital world filled with real-life people.
+
+Professor Ahmed, a surgeon and Lecturer in Surgery at Queen Mary University of London, said: “This represents a significant shift in how we can deliver education, especially when there is a practical element like when studying medicine. Future education will rely on hybrid learning platforms.
+
+“A 3D environment enables us to create 3D assets for example an anatomical model and interact with one another, which can be invaluable in teaching and clearly isn’t a possibility over Zoom or Teams. For example, we can simulate a real-life medical procedure in VR - which can be extremely useful technology in helping to train the doctors and surgeons of tomorrow.
+
+“Of course, in-person teaching adds the most value, but we are definitely seeing a shift in how education can be delivered and improved with the technology at our fingertips. And with more immersive learning opportunities using VR being rolled out around the country, there is evidence to suggest these types of opportunities are here to stay.”
+
+Stephanie Marshall, Vice-Principal (Education), at Queen Mary University of London, said: “I am always proud to see truly innovative education here at Queen Mary, and teaching students inside a 3D world is a fantastic example of how we are constantly keen to experiment with the latest technology and give our students the very best learning experience.
+
+“I imagine that those who attended will always remember the occasion and had a thoroughly enjoyable time. By embracing all that technology has to offer, we can make higher education more interactive, inclusive, and engaging for everyone.”
+
+Periklis Giannakis, a medical student who attended the lecture, said: “I really loved the experience of being one the very first medical students in the world to attend a lecture in the metaverse. It made learning much more fun and I really enjoyed the fact that I could interact with everyone attending. It was very surreal as it resembled an actual face to face lecture, and I feel fortunate to have been able to access this cutting-edge technology.”
+
+Teaching students in the Metaverse helps solve one of the key challenges that has arisen from online learning – a lack of tools in place to enable scientific experiments or any practical, hands-on activities in much the same way that would be possible in-person.
+
+The lecture covered the metaverse in medical education and the digital transformation of medicine – helping students to understand the technology that underpins some of the modern healthcare today. Students joined through either a VR desktop app or an Oculus headset.
+
+Students were also able to enjoy a more interactive experience with group teaching also made easier by the technological features within the VR world, compared to the traditional online experience.
+
+There are plans for more lectures to take place in this format, with further modules on the course planned for other students who would like to experience a teaching session through VR.
+
+*******************************
+
+Google is offering its virtual reality classroom system to schools for free
+
+
+
+If you buy something from a Verge link, Vox Media may earn a commission. See our ethics statement.
+
+Google wants students everywhere to begin experiencing the world in virtual reality, specifically by using its low-cost Cardboard headsets and a free field-trip simulation software known as Expeditions. The search giant announced today that it's offering Expeditions, which comes with a box of headsets and software teachers can control from a tablet, free to schools who want to deploy it in the classroom, according to The New York Times. It is both a way for Google to further develop its do-it-yourself VR kit and also an opportunity to make Google products a fixture in education systems around the globe.
+
+Google first announced Expeditions back in May when it launched a new version of Cardboard that would work with Apple's iPhone instead of solely on Android handsets. At its I/O conference, Google showed off a 16-camera GoPro rig that could film 360-degree scenes for use in VR, but Expeditions also relies on existing Google Street View images to help construct the field trips. The locales vary, from the standard museums and art galleries to tours of the Italian city of Verona to better connect with Shakespearean characters and the former headquarters of Lehman Brothers to give a first-hand lesson in financial crisis management. In total, Google and its early education partners have developed about 100 VR field trips, The New York Times reported.
+
+
+In a broader sense, Expeditions is another effort from Silicon Valley to get a foothold in the classroom, which Google arguably started back in 2006 with its Apps for Education program to give free software to schools. Facebook announced this month that it's working with California's Summit Public Schools to transform their personalized learning strategies into free, publicly available software. Expeditions is in some ways a logical next step after Microsoft's Skype, which has long allowed teachers and students to teleconference with individuals on the other side of the world. Now, a standard smartphone slipped inside a pair of cardboard goggles is enough to teleport students to any destination.
+
+*******************************
+
+Minecraft VR mod shuts down as Microsoft adds official Rift support
+New feature only works on the Windows 10 edition of the popular game.
+
+Today, Microsoft released official support for Minecraft on the Oculus Rift VR headset, making good on a promise that was made 11 months ago. That official support, however, helped lead to the end of a popular mod that has been letting players experience Minecraft on the Rift for years now.
+
+"Now that Microsoft/Mojang have released VR support for MCPE/Win10 Minecraft, they are exercising their rights over our unofficial mod (Minecrift)," mod co-creator mabrowning wrote on Reddit. "I received notice a few days ago that I can no longer use the name 'Minecrift' or the minecraft-vr.com domain. I've already shutdown the website, but anyone who wants to get a copy of the code should grab it from GitHub before that goes offline, too."
+
+Later in the thread, mabrowning clarified that Microsoft's problem was merely with the name of the Minecrift project and the minecrift-vr.com domain that hosted it. To be fair to Microsoft, names like Minecrift and Minecraft-VR do seem to carry a high chance of being legitimately confused with the new official "Minecraft for Rift" product (it's somewhat admirable that Microsoft didn't take exception to the name before now, in fact).
+
+While the mod itself could have continued development under a different name, mabrowning said he's decided to shut down Minecrift rather than go that route. The reason has to do with competing VR mod Vivecraft, which was built on top of Minecrift and also works with the Rift through the OpenVR standard. Mabrowning says Vivecraft "is better in every way," obviating the need for his mod.
+
+The continued existence of Vivecraft will be welcome news to the millions of users that still play the original, Java version of Minecraft. That's because Microsoft's official Rift support is limited to the Windows 10 edition of the game, a C++-based fork that was based on the mobile Pocket Edition (and which was recently made cross-compatible with those mobile versions). It's the latest feature split between the two extant, "official" PC versions of the game, a state of affairs has caused concern for fans since the Windows 10 edition was first announced last year.
+
+*******************************
