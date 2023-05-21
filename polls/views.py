@@ -9,7 +9,7 @@ import plotly.graph_objs as go
 import country_converter as coco
 import plotly.express as px
 import numpy as np
-from llama_index import SimpleDirectoryReader, GPTVectorStoreIndex, QuestionAnswerPrompt, BeautifulSoupWebReader, SimpleWebPageReader, GPTListIndex, LLMPredictor, PromptHelper
+from llama_index import SimpleDirectoryReader, GPTVectorStoreIndex, QuestionAnswerPrompt, BeautifulSoupWebReader, SimpleWebPageReader, GPTListIndex, LLMPredictor, PromptHelper, ServiceContext
 from langchain import OpenAI
 import os
 from django.shortcuts import render
@@ -25,15 +25,24 @@ model_engine = "gpt-3.5-turbo"
 pytrend = TrendReq()
 myIndex = GPTListIndex([])
 
-def construct_index_from_data():
-    directory_path = 'static/context'
-    # create documents
-    documents = SimpleDirectoryReader(directory_path).load_data()
+directory_path = 'static/context'
+  # create documents
+documents = SimpleDirectoryReader(directory_path).load_data()
     # create Index
-    for document in documents:
-        myIndex.insert(document)
-construct_index_from_data()
-# Create your views here.
+max_input_size = 8000
+    # set number of output tokens
+num_output = 512
+    # set maximum chunk overlap
+max_chunk_overlap = 100
+prompt_helper = PromptHelper(max_input_size, num_output, max_chunk_overlap)
+
+    # define LLM
+llm_predictor = LLMPredictor(llm=OpenAI(temperature=0, model_name="text-davinci-002", max_tokens=num_output))
+
+service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor, prompt_helper=prompt_helper)
+
+    # build index
+myIndex = GPTVectorStoreIndex.from_documents(documents, service_context=service_context)
 
 
 def get_form(request):
@@ -138,7 +147,7 @@ def get_results(request):
 
     query_engine = myIndex.as_query_engine(text_qa_template=QA_PROMPT)
     response = query_engine.query(query_str)
-    print(response.response)
+    print(response)
 
     return view_resutls(request, response)
 
