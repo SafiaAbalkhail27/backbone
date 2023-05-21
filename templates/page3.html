@@ -1,0 +1,414 @@
+<html>
+    {% load static %}
+    <head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" sizes="50x50" href="logo.png">
+        <link rel="stylesheet" href="formStyle.css">
+	    <title>Let us know you more</title>
+        <script type="text/javascript">
+            function showText() {
+                var otherCheckbox = document.getElementById("otherCheckbox");
+                var otherText = document.getElementById("otherText");
+                if (otherCheckbox.checked == true) {
+                    otherText.style.display = "block";
+                } else {
+                    otherText.style.display = "none";
+                }
+            }
+        </script>
+        <style>
+            body {
+    background-color: black;
+    color: white;
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+     /* add this line to increase the font size of h2 */
+    padding-bottom: 10px; /* add this line to add more padding to the bottom of h2 */
+}
+
+h3 {
+    
+    text-transform: uppercase; /* add this line to make the text uppercase */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+body{ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.containar{
+	   display : flex;
+       justify-content: center;
+	   flex-wrap: wrap;
+	   }
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background:  #89e420;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+
+
+form {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1b1b1b;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+ul.checkboxes {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+ul.checkboxes li {
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color:  #89e420;;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color:  #89e420;;
+}
+
+.form-check {
+    margin-bottom: 20px;
+}
+
+.form-check label {
+    font-size: 16px;
+}
+
+.form-check input[type="checkbox"] {
+   margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: white; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:  #89e420;; /* Dark green */
+  }
+
+.form-group-1,
+.form-group-2,
+.form-group-3,
+.form-group-4,
+.form-group-5 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group-1 h3,
+.form-group-2 h3,
+.form-group-3 h3,
+.form-group-4 h3,
+.form-group-5 h3 {
+    margin-bottom: 10px;
+     /* add this line to make the font bolder */
+    text-transform: uppercase; /* add this line to make the text uppercase */
+}
+
+
+
+        </style>
+
+    </head>
+    
+	<body> 
+        <div class="formPage">
+            <div class="banner">
+                <div class="navbar">
+                    <img src="nav.png" class="logo">
+                    <ul>
+                        <li><a href="#aboutUs">About us</a></li>
+                        <li>
+                            <a href="#contactUs">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="#help"> Help </a>
+                        </li>
+                    </ul>
+                </div>
+       
+            <div class="formMain">
+                <form method="POST" action="{% url 'get_form' %}" class="appointment-form" id="appointment-form" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <h2>Digital Transformation in Education: A Needs Assessment Survey</h2>
+                    <div class="form-group-1">
+                        <br><br>
+                        <h3>General info</h3>
+                        <hr>
+                        <label for="CName">Company name:</label>
+                        <input type="text" name="CName" id="CName" required />
+                        
+                        <label for="link">Company's Linkedin link:</label>
+                        <input type="url" name="link" id="link" />
+                    
+                        <label for="companyDescription">Describe what your company does in few sentences:</label>
+                        <input type="text" name="companyDescription" id="companyDescription" required />
+                    
+                        <label for="size">The size of your organization:</label>
+                        <input type="text" name="size" id="size" required />
+                    
+                        <label for="empNum">Number of employees:</label>
+                        <input type="number" name="empNum" id="empNum" required />
+                    
+                        <label for="depNum">Number of departments:</label>
+                        <input type="number" name="depNum" id="depNum" required />
+                    
+                        <label>Departments you're targeting:</label>
+                        <ul>
+                            <li><input type="checkbox" name="depar" value="Business" >Business</li> 
+                            <li><input type="checkbox" name="depar" value="Engineering" >Engineering</li> 
+                            <li><input type="checkbox" name="depar" value="Medicine">Medicine</li> 
+                            <li><input type="checkbox" name="depar" value="Law">Law</li> 
+                            <li><input type="checkbox" name="depar" value="Computer Science">Computer Science</li> 
+                            <li><input type="checkbox" name="depar" value="Psychology">Psychology</li> 
+                            <li><input type="checkbox" name="depar" value="Education">Education</li> 
+                            <li><input type="checkbox" name="depar" value="Social Sciences">Social Sciences</li> 
+                            <li><input type="checkbox" name="depar" value="Natural Sciences">Natural Sciences</li> 
+                            <li><input type="checkbox" name="depar" id="otherCheckbox" value="other" onclick="showText()"> Other</li>
+                        </ul>
+                        <br>
+                        <label for="otherText" style="display:none" id="otherTextLabel">Please specify:</label>
+                        <input type="text" id="otherText" style="display:none">
+                    
+                        <label for="goals">What are your company's overall business goals and objectives:</label>
+                        <input type="text" name="goals" id="goals" required />
+                    
+                        <label for="issue">What is the issue or problem that you are facing:</label>
+                        <input type="text" name="issue" id="issue" required />
+                        <br><br>
+                    </div>
+                    
+                    <div class="form-group-2">
+                        <h3>Finance and budget</h3>
+                        <hr>
+                        <label for="budget">Do you have an existing budget on mind? If yes, how much is it:</label>
+                        <input type="text" name="budget" id="budget" required />
+                        <label for="budget-options">Are you open to discussing different budget options?</label><br>
+<input type="radio" id="yes" name="budget-options" value="yes"> Yes <br> 
+<input type="radio" id="no" name="budget-options" value="no"> No
+                    </div>
+                    <div class="form-group-3">
+                        <br><br>
+                        <h3>Cultural readiness</h3>
+                        <hr>
+                        <label for="communication">How does the company approach communication with employees:</label>
+                        <input type="text" name="communication" id="communication" placeholder="Example: through emails, town halls, etc." required />
+                        <label for="training">What types of training and support does the company provide to employees during a change initiative:</label>
+                        <input type="text" name="training" id="training" required />
+                        <label for="measure">How does the company measure the success of its change initiatives, and what metrics do they use to evaluate cultural readiness?</label>
+                        <input type="text" name="measure" id="measure" required />
+                        <label for="feedback">How does the company handle employee feedback and suggestions, and what mechanisms do they have in place to listen to and address employee concerns?</label>
+                        <input type="text" name="feedback" id="feedback" required />
+                    </div>
+                    <div class="form-group-4">
+                        <br><br>
+                        <h3>Target of digital transformation</h3>
+                        <hr>
+                        <label for="user">Who are your primary customers or users, and what are their needs and preferences when it comes to digital experiences?</label>
+                        <input type="text" name="user" id="user" required />
+                        
+                        <label for="pain">How is your target audience currently interacting with your company or brand digitally, and what are their pain points or areas of frustration?</label>
+                        <input type="text" name="pain" id="pain" required />
+                    </div>
+                    <div class="form-group-5">
+                        <br><br>
+                        <h3>Digital transformation strategy</h3>
+                        <hr>
+                        <label for="tech">What kind of technologies are you trying to implement?</label>
+                        <input type="text" name="tech" id="tech" placeholder="Example: VR, chatbot, etc." required />
+                        <label>What is your organization's current digital strategy?</label>
+                        <ul>
+                        <li><input type="radio" name="strat" value="noStrat" > We do not have a digital strategy</li> 
+                        <li><input type="radio" name="strat" value="needUpdate"> We have a digital strategy but it needs to be updated</li>
+                        <li><input type="radio" name="strat" value="predefined"> We have a well-defined digital strategy</li>
+                        <li><input type="radio" name="strat" value="dk"> Unsure</li>
+                        </ul>
+                        <br>
+                        <label>What are the biggest barriers to digital transformation in your organization?</label>
+                        <ul>
+                        <li><input type="radio" name="barriers" value="noExp" > Lack of technical expertise</li> 
+                        <li><input type="radio" name="barriers" value="noChange"> Resistance to change</li>
+                        <li><input type="radio" name="barriers" value="budgetCons"> Budget constraints</li>
+                        <li><input type="radio" name="barriers" value="all"> All of the above</li>
+                        </ul>
+                        <br>
+                        <label>How are you currently measuring the success of your digital initiatives?</label>
+                        <ul>
+                            <li><input type="radio" name="success" value="growth"> Revenue growth</li> 
+                            <li><input type="radio" name="success" value="cost"> Cost savings</li>
+                            <li><input type="radio" name="success" value="satisfaction"> Customer satisfaction</li>
+                            <li><input type="radio" name="success" value="all"> All of the above</li>
+                        </ul>
+                        <br>
+                        <label for="training">How does the company measure the success of its change initiatives, and what metrics do they use to evaluate cultural readiness?</label>
+                        <input type="text" name="training" id="training" required />
+                        
+                        <label for="measure">How does the company handle employee feedback and suggestions, and what mechanisms do they have in place to listen to and address employee concerns?</label>
+                        <input type="text" name="measure" id="measure" required />
+                        
+                        <label for="user">Who are your primary customers or users, and what are their needs and preferences when it comes to digital experiences?</label>
+                        <input type="text" name="user" id="user" required />
+                        
+                        <label for="pain">How is your target audience currently interacting with your company or brand digitally, and what are their pain points or areas of frustration?</label>
+                        <input type="text" name="pain" id="pain" required />
+                        
+                        <label for="team">Can you have a dedicated IT team to handle the digital transformation process?</label>
+                        <input type="text" name="team" id="team" required />
+                        
+                        <label for="what">What do you want to transform and improve using digitalproducts and services?</label>
+                        <input type="text" name="what" id="what" required />
+                        
+                        <label for="background">Do your employees have a background in using and handling digital products?</label>
+                        <input type="text" name="background" id="background" required />
+                        
+                        <label for="resources">What resources do you have at your disposal to address the issue?</label>
+                        <input type="text" name="resources" id="resources" required />
+                        
+                        <label for="solution">What are the potential risks and opportunities associated with different solutions?</label>
+                        <input type="text" name="solution" id="solution" required />
+                        
+                        <label for="impact">What are the potential outcomes and impacts of different solutions?</label>
+                        <input type="text" name="impact" id="impact" required />
+                        
+                        <label for="previous">What options have you already tried?</label>
+                        <input type="text" name="previous" id="previous" required />
+                        
+                        <label for="communication">What are your preferences and priorities for addressing the issue?</label>
+                        <input type="text" name="communication" id="communication" required />
+                        
+                        <label for="open">How open are the employees to the digital transformation?</label>
+                        <input type="text" name="open" id="open" required />
+                    </div>
+                    <div class="form-check">
+                        
+                        <label for="agree-term" class="label-agree-term"><span><span></span></span><input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />I agree to the  <a href="#" class="term-service">Terms and Conditions</a></label>
+                    </div>
+                    <div class="form-submit">
+                        <input type="submit" name="submit" id="submit" class="submit" value="Submit" />
+                    </div>
+                </form>
+            </div>
+        
+<br><br>
+    </div>
+   
+    </body>
+</html>

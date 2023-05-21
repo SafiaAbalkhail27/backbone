@@ -23,13 +23,130 @@ openai.api_key = "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"
 os.environ["OPENAI_API_KEY"] = "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"
 model_engine = "gpt-3.5-turbo" 
 pytrend = TrendReq()
-index = GPTVectorStoreIndex([])
+myIndex = GPTListIndex([])
 
+def construct_index_from_data():
+    directory_path = 'static/context'
+    # create documents
+    documents = SimpleDirectoryReader(directory_path).load_data()
+    # create Index
+    for document in documents:
+        myIndex.insert(document)
+construct_index_from_data()
 # Create your views here.
-def index(request):
+
+
+def get_form(request):
+    if request.method == 'POST':
+        # Retrieve form data
+        company_name = request.POST.get('CName')
+        linkedin_link = request.POST.get('link')
+        company_description = request.POST.get('companyDescription')
+        company_size = request.POST.get('size')
+        num_of_employees = request.POST.get('empNum')
+        num_of_departments = request.POST.get('depNum')
+        departments = request.POST.getlist('depar')
+        other_department = request.POST.get('otherText')
+        business_goals = request.POST.get('goals')
+        issue = request.POST.get('issue')
+        budget = request.POST.get('budget')
+        budget_options = request.POST.get('budget-options')
+        communication = request.POST.get('communication')
+        training_and_support = request.POST.get('training')
+        measure_of_success = request.POST.get('measure')
+        feedback_mechanism = request.POST.get('feedback')
+        primary_customers = request.POST.get('user')
+        target_audience_interaction = request.POST.get('pain')
+        technologies = request.POST.get('tech')
+        digital_strategy = request.POST.get('strat')
+        transformation_barriers = request.POST.get('barriers')
+        success_metrics = request.POST.get('success')
+        dedicatedIT_team = request.POST.get('team')
+        transformation_targets = request.POST.get('what')
+        employee_background = request.POST.get('background')
+        available_resources = request.POST.get('resources')
+        potential_risks_and_opportunities = request.POST.get('solution')
+        potential_outcomes_and_impacts = request.POST.get('impact')
+        options_tried = request.POST.get('previous')
+        preferences_and_priorities = request.POST.get('communication')
+        employee_openness = request.POST.get('open')
+        
+        # Create a dictionary with the form data
+        form_data = {
+            'company_name': company_name,
+            'linkedin_link': linkedin_link,
+            'company_description': company_description,
+            'company_size': company_size,
+            'num_of_employees': num_of_employees,
+            'num_of_departments': num_of_departments,
+            'departments': departments,
+            'other_department': other_department,
+            'business_goals': business_goals,
+            'issue': issue,
+            'budget': budget,
+            'budget_options': budget_options,
+            'communication': communication,
+            'training_and_support': training_and_support,
+            'measure_of_success': measure_of_success,
+            'feedback_mechanism': feedback_mechanism,
+            'primary_customers': primary_customers,
+            'target_audience_interaction': target_audience_interaction,
+            'technologies': technologies,
+            'digital_strategy': digital_strategy,
+            'transformation_barriers': transformation_barriers,
+            'success_metrics': success_metrics,
+            'dedicatedIT_team': dedicatedIT_team,
+            'transformation_targets': transformation_targets,
+            'employee_background': employee_background,
+            'available_resources': available_resources,
+            'potential_risks_and_opportunities': potential_risks_and_opportunities,
+            'potential_outcomes_and_impacts': potential_outcomes_and_impacts,
+            'options_tried': options_tried,
+            'preferences_and_priorities': preferences_and_priorities,
+            'employee_openness': employee_openness,
+        }
+        
+        documents = SimpleDirectoryReader(form_data).load_data()
+        
+        myIndex.insert(documents)
+
+    return get_results(request)
+
+def get_results(request):
+    query_str = "can you help with my digital strategy?"
+    QA_PROMPT_TMPL = (
+        
+         ''' 
+         {query_str}
+         you are a consultant to an education institution who wants to do digital transformation and your job is to analyse the institution data and the information given to help you provide a digital transformation strategy
+    
+        your strategy should follow these points:
+        - why do the company need digital transformation to be applied depending on data analysis and the given data from the survey
+        - what are the challenges, problems, and barriers that prevents you from using digital transformation on your case depending on the data analysis and the given data from the form
+        - you should explain how to work around these challenges and barriers
+        - you should provide similar cases that have the same purpose that the company want to achieve and it's the most similar to the company's goals and culture
+        - you should be able to estimate the needed budget by comparing the budgets used in similar cases and the prices vendors provide
+        - you should be able to give the company possible vendors suitable for their case and budget
+        - you should implement a road map of the strategy that shows step by step what to do
+
+        '''
+        "{context_str}"
+        "\n---------------------\n"
+        "your answer should just be in json format\n"
+    )
+    QA_PROMPT = QuestionAnswerPrompt(QA_PROMPT_TMPL)
+
+    query_engine = myIndex.as_query_engine(text_qa_template=QA_PROMPT)
+    response = query_engine.query(query_str)
+    print(response.response)
+
+    return view_resutls(request, response)
+
+
+def home(request):
     return render(request, 'index.html')
 
-def analayse_trends(request):
+def analayse_trends():
     #request will be something like (VR in education), (Less employment in HR) etc
     tech = "VR"
     keywords = ["VR education"]
@@ -86,78 +203,7 @@ def analayse_trends(request):
 
     context = {'trends_5y': trends_5y, 'trends_last_y': trends_last_y, 'country_trend': country_trend}
 
-
-    return render(request, 'results.html', context)
-
-
-def construct_index_from_data(self):
-    directory_path = 'static/context'
-    # set maximum input size
-    max_input_size = 4096
-    # set number of output tokens
-    num_outputs = 2000
-    # set maximum chunk overlap
-    max_chunk_overlap = 20
-    # set chunk size limit
-    chunk_size_limit = 600
-
-    # define LLM
-    llm_predictor = LLMPredictor(llm=OpenAI(
-    temperature=0.5, model_name="text-davinci-003", max_tokens=num_outputs))
-    prompt_helper = PromptHelper(
-    max_input_size, num_outputs, max_chunk_overlap, chunk_size_limit=chunk_size_limit)
-
-    # create documents
-    documents = SimpleDirectoryReader(directory_path).load_data()
-    # create Index
-    for document in documents:
-        index.insert(document)
-
-    return index
-
-def add_linked_in(request):
-    return index
-
-def get_results():
-    query_str = "What did the author do growing up?"
-    QA_PROMPT_TMPL = (
-        
-         ''' you are a consultant to an education institution who wants to do digital transformation using VR and your job is to analyse the institution data and the information given to help you provide a digital transformation strategy. this data consists of:
-        - data about the company's culture and situation and needs which was taken from a survey  
-        - a sample of the employees who works at the company and their skills  
-        - info and articles about digital transformation in VR in education which you can use as a source to help you with the analyzation 
-        - Facebook posts related to VR in education to gain more information
-        - possible vendors providing the VR technology
-
-         
-        
-        your strategy should follow these points:
-        - why do the company need digital transformation to be applied depending on data analysis and the given data from the survey
-        - what are the challenges, problems, and barriers that prevents you from using digital transformation on your case depending on the data analysis and the given data from the form
-        - you should explain how to work around these challenges and barriers
-        - you should provide similar cases that have the same purpose that the company want to achieve and it's the most similar to the company's goals and culture
-        - you should be able to estimate the needed budget by comparing the budgets used in similar cases and the prices vendors provide
-        - you should be able to give the company possible vendors suitable for their case and budget
-        - you should implement a road map of the strategy that shows step by step what to do
-        
-        
-
-        
-        
-
-        '''
-        "{context_str}"
-        "\n---------------------\n"
-        "your answer should just be in json following this format: {query_str}\n"
-    )
-    QA_PROMPT = QuestionAnswerPrompt(QA_PROMPT_TMPL)
-
-    query_engine = index.as_query_engine(
-    text_qa_template=QA_PROMPT
-    )
-    response = query_engine.query(query_str)
-
-    return response
+    return context
 
 def upload_file(request):
     if request.method == 'POST':
@@ -173,10 +219,30 @@ def upload_file(request):
                 for row in csvfile: 
                 #add this python dict to json array
                     jsonArray.append(row)
-            
+        
+        data = {}
 
         
-            return render(request, 'success.html', {'file': uploaded_file, 'type':uploaded_file.content_type, 'data': jsonArray})
+        return render(request, 'success.html', {'file': uploaded_file, 'type':uploaded_file.content_type, 'data': data})
     else:
         form = UploadFileForm()
     return render(request, 'upload.html', {'form': form})
+
+        
+def view_resutls(request, response):
+    #do all the stpes
+    
+    #2 get graphs
+    graphs = analayse_trends()
+    print(response)
+    #3 render them as context to results.html
+    return render(request, 'results.html')
+
+def page1(request):
+    return render(request, 'page1.html')
+
+def page2(request):
+    return render(request, 'page2.html')
+
+def page3(request):
+    return render(request, 'page3.html')

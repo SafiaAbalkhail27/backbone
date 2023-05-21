@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>Choose a Sector</title>
+    <link rel="icon" type="image/png" sizes="50x50" href="logo.png">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+body{ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.containar{
+	   display : flex;
+       justify-content: center;
+	   flex-wrap: wrap;
+	   }
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #89e420;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+        html {
+            height: 100vh;
+            width: 100vw;
+            margin : 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100%;
+            width: 100%;
+            margin : 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+    
+
+        /* Button styles */
+        .button {
+            background-color: #5f5f60;
+            border: none;
+            color: black;
+            padding: 40px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 30px;
+            transition-duration: 0.4s;
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box;
+            box-shadow: 0 5px 15px rgba(0, 0,0, 0.2);
+            margin: 3;
+        }
+
+            .button:hover {
+                background-color: #89e420;
+                transform: scale(1.1);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            }
+
+        /* Button container styles */
+         /* Button container styles */
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* horizontally center the buttons */
+        align-items: center; /* vertically center the buttons */
+        align-content: center;
+        margin-top: 100px;
+        width: 100%; /* change width to 100% */
+    }
+
+        /* Top row of buttons */
+        .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; /* change to center for the buttons to be centered */
+        align-items: center;
+        margin-bottom: 40px;
+        align-items: center;
+        align-content: center;
+        width: 100%; /* change width to 100% */
+    }
+
+
+       
+.button:hover {
+  background-color: #89e420;
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0,0, 0, 0.3);
+}
+
+.button img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+        /* Bottom row of buttons */
+        
+
+        /* Button spacing */
+        
+
+        /* Header styles */
+        
+
+        .buttonout {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: 0 20px; /* add some horizontal margin to separate buttons */
+        padding: 0;
+    }
+
+    .buttonout img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+
+        p {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;}
+
+
+.button-text {
+  margin-top: 20px;
+  /* other styles */
+}
+
+.buttonout:not(:nth-of-type(3)) .button {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.buttonout:not(:nth-of-type(3)) .button-text {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.buttonout:nth-of-type(3) .button {
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.buttonout:nth-of-type(3) .button-text {
+    opacity: 1;
+    pointer-events: auto;
+}
+.buttonout:nth-of-type(3):hover {
+    transform: none;
+}
+
+.buttonout.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.buttonout.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.button:hover {
+  background-color: #ddd;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.buttonout.disabled .button:hover {
+ background-color: #5f5f60;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.buttonout.disabled:hover .button {
+  transform: none;
+}
+.button:hover {
+  background-color: #89e420;
+  /* other styles */
+}
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* horizontally center the buttons */
+    align-items: center; /* vertically center the buttons */
+    align-content: center;
+    margin-top: -0px; /* adjust this value to move the buttons up or down */
+    width: 100%; /* change width to 100% */
+}
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="banner">
+        <div class="navbar">
+            <img src='{%static "nav.png"%}' class="logo">
+            <ul>
+                <li><a href="#aboutUs">About us</a></li>
+                <li>
+                    <<a href="#contactUs">Contact us</a>
+                </li>
+                <li>
+                    <a href="#help"> Help </a>
+                </li>
+            </ul>
+        </div>
+    <!-- Header -->
+
+    <h1 style="text-align: center; color: white; font-family: sans-serif;">CHOOSE A SECTOR</h1><br><br>
+	<hr style="background-color:  #89e420;">
+    <br><br>
+    <!-- Button container -->
+    <div class="button-container">
+        <div class="button-container">
+        <!-- Top row of buttons -->
+        <div class="row">
+            <div class="buttonout">
+                <a class="button" href="{% url 'page2'%}">
+                    <img src='{% static "h.png" %}' alt="Button 1">
+
+                </a>
+                <p class="button-text">
+                    HEALTHCARE
+                </p>
+            </div>
+
+
+
+            <div class="buttonout">
+                <a class="button" href='page2'>
+                    <img src= '{% static "f.png" %}' alt="Button 2">
+
+                </a>
+                <p class="button-text"> FINANCE</p>
+            </div>
+
+
+
+            <div class="buttonout">
+                <a class="button" href="{% url 'page2'%}">
+                    <img src='{% static "e.png" %}' alt="Button 3">
+
+                </a>
+                <p class="button-text">
+                    EDUCATION/TRAINING
+                </p>
+            </div>
+
+
+
+
+            <div class="buttonout">
+                <div class="button" onclick="location.href='page4.html'">
+                    <img src='{% static "p.png" %}' alt="Button 4">
+
+                </div>
+                <p class="button-text">
+                    
+PETROLEUM
+                </p>
+            </div>
+
+
+        </div>
+
+        <!-- Bottom row of buttons -->
+        <div class="row">
+
+            <div class="buttonout">
+                <div class="button" onclick="location.href='page5.html'">
+                    <img src='{% static "mf.png" %}' alt="Button 5">
+
+                </div>
+                <p class="button-text">
+                    MANUFACTURING
+                </p>
+            </div>
+
+
+            <div class="buttonout">
+                <div class="button" onclick="location.href='page6.html'">
+                    <img src='{% static "re.png" %}' alt="Button 6">
+
+                </div>
+                <p class="button-text">
+                    REAL ESTATE
+                </p>
+            </div>
+
+
+
+            <div class="buttonout disabled">
+                <div class="button" onclick="location.href='page7.html'">
+                  <img src='{% static "fi.png" %}' alt="Button 7">
+                </div>
+                <p class="button-text">FOOD INDUSTRY</p>
+              </div>
+
+
+
+            <div class="buttonout">
+                <div class="button" onclick="location.href='page8.html'">
+                    <img src='{% static "ec.png" %}' alt="Button 8">
+
+                </div>
+                <p class="button-text">
+                    E-COMMERCE
+                </p>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    
+</body>
+</html>
